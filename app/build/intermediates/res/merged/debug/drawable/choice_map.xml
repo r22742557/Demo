@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+<item android:state_pressed="true" >
+    
+    <shape>
+    	<gradient
+    	    	android:startColor="#449def"
+                android:centerColor="#191970"
+                android:endColor="#449def"
+                android:angle="90"
+                />    
+                <corners
+                android:radius="50dp" />
+    </shape>
+    
+    </item>    <!-- pressed -->
+   
+<item>
+    <shape>
+    	<gradient
+    	    	android:startColor="#449def"
+                android:endColor="#449def"
+                android:angle="90"
+                />    
+                <corners
+                android:radius="50dp" />
+    </shape>
+</item>  <!-- default -->
+</selector><!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/choice_map.xml -->

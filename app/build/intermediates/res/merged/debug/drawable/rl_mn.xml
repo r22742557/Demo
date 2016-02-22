@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true" >
+    
+<shape android:shape="ring" 
+    android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp"> 
+        
+      
+    <stroke android:width="3.0dip"  
+        android:color="@color/hotpink"          
+        />       
+    <corners android:radius="8.0dip" />  
+</shape> 
+</item> 
+<item android:state_focused="true" android:drawable="@color/red" /> 
+
+<item>
+    
+    <shape android:shape="ring" 
+    android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp">       
+      
+    <stroke android:width="5.0dip"  
+        android:color="@color/white"          
+        />       
+    <corners android:radius="8.0dip" />  
+</shape> 
+</item>  <!-- default -->
+
+
+</selector>
+
+
+<!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/rl_mn.xml -->

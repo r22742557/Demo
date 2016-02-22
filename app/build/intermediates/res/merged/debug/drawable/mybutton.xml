@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+<item android:state_pressed="true" >
+    
+    <shape>
+    	<gradient
+                android:startColor="#449def"
+                android:centerColor="#191970"
+                android:endColor="#449def"
+                android:angle="270"
+                />    
+                <corners
+                android:radius="5dp" />
+    </shape>
+    
+    </item>    <!-- pressed -->
+<item android:state_focused="true" android:drawable="@color/red" />   
+<item>
+    <shape>
+    	<gradient
+                android:startColor="#449def"
+                android:centerColor="#2f6699"
+                android:endColor="#449def"
+                android:angle="270"
+                />    
+                <corners
+                android:radius="5dp" />
+    </shape>
+</item>  <!-- default -->
+</selector><!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/mybutton.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+
+<item android:state_focused="true" android:drawable="@color/red" />   
+<item>
+   <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="60dp"
+        >
+        		<gradient 
+        		    android:startColor="#D2691E"
+        		    android:endColor="#D2691E"
+        		    android:angle="270"	
+        		    	/>
+    	       
+    </shape>
+</item>  <!-- default -->
+</selector>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/palegoldenrod" >
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_x="620dp"
+        android:layout_y="100dp"
+        android:background="@drawable/btn_b_main"
+        android:text="@string/back_to_main"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_manu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="@string/manu_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="70sp" />
+    
+    <TextView
+        android:id="@+id/Speed"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_x="600dp"
+        android:layout_y="300dp"
+        android:text="Speed"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_low"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_x="600dp"
+        android:layout_y="700dp"
+        android:text="@string/btn_low"
+        android:textSize="30sp"
+        android:background="@drawable/btn_speed"
+        />
+
+    <Button
+        android:id="@+id/btn_mid"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_x="600dp"
+        android:layout_y="550dp"
+        android:text="@string/btn_mid"
+        android:textSize="30sp"
+        android:background="@drawable/btn_speed"
+        />
+
+    <Button
+        android:id="@+id/btn_high"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_x="600dp"
+        android:layout_y="400dp"
+        android:text="@string/btn_high"
+        android:textSize="30sp"
+        android:background="@drawable/btn_speed"
+        />
+    
+
+    <ImageButton
+        android:id="@+id/imbtn_forward"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="240dp"
+        android:layout_y="310dp"        
+        android:src="@drawable/forward"
+        android:scaleType="centerCrop" 
+        android:background="@drawable/btn_move"/>
+
+    <ImageButton
+        android:id="@+id/imbtn_right"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="430dp"
+        android:layout_y="500dp"        
+        android:src="@drawable/right"
+        android:scaleType="centerCrop" 
+        android:background="@drawable/btn_move"/>
+
+    <ImageButton
+        android:id="@+id/imbtn_left"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="50dp"
+        android:layout_y="500dp"        
+        android:src="@drawable/left"
+        android:scaleType="centerCrop"
+        android:background="@drawable/btn_move"/>
+
+    <ImageButton
+        android:id="@+id/imbtn_back"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="245dp"
+        android:layout_y="690dp"        
+        android:src="@drawable/back"
+        android:scaleType="centerCrop"
+        android:background="@drawable/btn_move" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_x="243dp"
+        android:layout_y="505dp"
+        android:background="@drawable/btn_man_stop"
+        android:text="@string/btn_stop"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/ln"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="100dp"
+        android:layout_y="875dp"
+        android:src="@drawable/ln"
+        android:scaleType="center"/>
+    
+    <ImageButton
+        android:id="@+id/rm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="400dp"
+        android:layout_y="875dp"
+        android:src="@drawable/rm"
+        android:scaleType="center" />
+
+</AbsoluteLayout>
+<!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/layout/manually.xml -->

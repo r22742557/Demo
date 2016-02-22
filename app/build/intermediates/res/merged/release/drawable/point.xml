@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+<item android:state_pressed="true" >
+    
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp"
+        >
+            	
+        <gradient 
+        		    android:startColor="#D2691E"
+        		    android:centerColor="#BDB76B"
+        		    android:endColor="#D2691E"
+        		    android:angle="270"	
+        		    	/>    
+                <corners
+                android:radius="100dp" />
+    </shape>
+    
+    </item>    <!-- pressed -->
+<item android:state_focused="true"  />   
+<item>
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp"
+        >
+        		<gradient 
+        		    android:startColor="#D2691E"
+        		    android:endColor="#D2691E"
+        		    android:angle="270"	
+        		    	/>
+    	        <corners
+                android:radius="100dp" />
+    </shape>
+</item>  <!-- default -->
+</selector><!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/point.xml -->

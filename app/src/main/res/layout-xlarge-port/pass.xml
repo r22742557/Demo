@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dip"
+    android:layout_height="300dip"
+    android:background="#000000"  
+    >
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	     android:layout_marginTop ="50dip" 
+	    >    
+	    <TextView
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="輸入密鑰的值"
+	    	android:textSize="40px"
+	    	android:textColor="#FFFFFF"
+	    />
+	    <EditText
+	    	android:id="@+id/et"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="60px"
+	    />		    
+		<Button 
+			android:id="@+id/confirmBtn"  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5dip"
+		    android:text = "確認"
+		    android:layout_gravity="center_horizontal"
+		    />
+		    
+	</LinearLayout>        
+</LinearLayout>

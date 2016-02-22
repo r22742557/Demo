@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+<item android:state_pressed="true" >
+    
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="45dp"
+        >    	
+        <gradient 
+            		android:type="radial" 
+            	    android:gradientRadius="45"
+        		    android:startColor="#FFA500"
+        		    android:centerColor="#D2691E"
+        		    android:endColor="#FFA500"
+        		    android:angle="270"	
+        		    	/>    
+                
+    </shape>
+    
+    </item>    <!-- pressed -->
+<item android:state_focused="true" android:drawable="@color/red" />   
+<item>
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="45dp"
+        >
+        		<gradient 
+        		    android:type="radial" 
+            	    android:gradientRadius="45"        		    
+        		    android:startColor="#FFA500"
+        		    android:endColor="#FFA500"
+        		    android:angle="270"	
+        		    	/>
+    	        
+    </shape>
+</item>  <!-- default -->
+</selector><!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/btn_go.xml -->

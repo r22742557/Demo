@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+<item android:state_pressed="true" >
+    
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp"
+        >
+            	<gradient
+            	    android:type="radial" 
+            	    android:gradientRadius="60"
+        		    android:startColor="#FF69B4"
+        		    android:centerColor="#FFB6C1"
+        		    android:endColor="#FF69B4"
+        		    android:angle="270"	
+        		    	/>    
+                
+    </shape>
+    
+    </item>    <!-- pressed -->
+<item android:state_focused="true" android:drawable="@color/red" />   
+<item>
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadius="0dp"
+        android:thickness="75dp"
+        >
+        		<gradient
+        		    android:type="radial" 
+            	    android:gradientRadius="60" 
+        		    android:startColor="#FFB6C1"
+        		    android:endColor="#FFB6C1"
+        		    android:angle="270"	
+        		    	/>
+    	        
+    </shape>
+</item>  <!-- default -->
+</selector><!-- From: file:/C:/Users/user/StudioProjects/Demo/app/src/main/res/drawable/btn_man_stop.xml -->

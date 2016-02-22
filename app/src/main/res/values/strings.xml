@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car1</string>
+    <string name="action_settings">Settings</string>
+    <!--choice_main-->
+    <string name="manu">手動設定</string>
+    <string name="auto">自動設定</string>
+        
+    <!--manu-->
+    <string name="manu_title">歡迎來到手動控制模式</string>
+    <string name="btn_low">低速</string>
+    <string name="btn_mid">中速</string>
+    <string name="btn_high">高速</string>
+    <string name="btn_stop">STOP</string>
+    
+    <!--auto-->
+    <string name="auto_title">歡迎來到最短路徑行駛</string>
+    <string name="auto_explain">請選擇自動行駛的地圖大小</string>
+    <string name="to_3">3X3</string>
+    <string name="to_4">4X4</string>
+    <string name="to_5">5X5</string>
+    <string name="to_6">6X6</string>
+    <string name="point">節點</string>
+    
+    <!--map-->
+    <string name="map3_title">3X3方陣地圖</string>
+    <string name="map4_title">4X4方陣地圖</string>
+    <string name="map5_title">5X5方陣地圖</string>
+    <string name="go_next">設定完成後請按下一步  → </string>
+    <string name="txt_checkset">設定確認，如欲修改請回上一頁</string>
+    
+    
+    
+    
+    <!--other-->
+    <string name="back_to_main">回到主頁面</string>
+    <string name="back">回上一頁</string>
+    <string name="cancel">取消</string>    
+    <string name="tv1">IP</string>
+    <string name="tv2">PORT</string>
+    
+
+
+    
+</resources>
